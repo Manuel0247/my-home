@@ -86,8 +86,8 @@ export async function createProperty(data: any) {
             ...data,
             // @ts-ignore
             host_id: session.user.id,
-            status: 'pending' // Default status
-        });
+            status: 'pending',
+        }) as any;
 
         revalidatePath('/host/dashboard');
         return { success: true, id: newProperty._id.toString() };
