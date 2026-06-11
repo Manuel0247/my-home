@@ -94,7 +94,7 @@ export function PropertyDetailsDialog({ property }: PropertyDetailsProps) {
                             </div>
                         ) : (
                             <div className="w-full h-48 bg-gray-100 rounded-lg flex items-center justify-center text-gray-400">
-                                Aucune image disponible
+                                Aucune images disponible
                             </div>
                         )}
 
